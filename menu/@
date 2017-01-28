@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+ int opcion=0;
+
+        printf("1.- Ropa\n");
+        printf("2.- Juegos\n");
+        printf("3.- Comida\n");
+        printf("4.- Electrodomesticos\n");
+        printf("Elige una  opcion: ");
+        scanf("%d", &opcion);
+
+  return EXIT_SUCCESS;
+}
